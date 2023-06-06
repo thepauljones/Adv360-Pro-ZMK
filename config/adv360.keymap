@@ -77,5 +77,15 @@
             >;
         };
 
+        layer_Gaming {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans     &trans               &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp TAB  &trans   &kp Q   &kp W   &kp E      &kp R                &kp T        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans   &kp A   &kp S   &kp D      &kp F                &kp G        &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans   &kp Z   &kp X   &kp C      &kp V               &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &kp SPACE            &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
